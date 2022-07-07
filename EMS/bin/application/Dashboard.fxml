@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DashboardController">
+   <children>
+      <Label fx:id="welcomeLabel" layoutX="794.0" layoutY="39.0" prefHeight="17.0" prefWidth="127.0" text="Welcome" />
+      <Button layoutX="931.0" layoutY="34.0" mnemonicParsing="false" onAction="#logOut" text="Logout" />
+      <MenuBar prefHeight="25.0" prefWidth="1000.0" style="-fx-background-color: #374151;">
+        <menus>
+          <Menu mnemonicParsing="false" style="-fx-background-color: #374151;" styleClass="menus" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" styleClass="menus" text="New" />
+                  <MenuItem mnemonicParsing="false" styleClass="menus" text="Open" />
+                  <MenuItem mnemonicParsing="false" styleClass="menus" text="Save" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" style="-fx-background-color: #374151;" styleClass="menus" text="View">
+            <items>
+              <MenuItem mnemonicParsing="false" styleClass="menus" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" styleClass="menus" text="Settings">
+            <items>
+              <MenuItem mnemonicParsing="false" styleClass="menus" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>

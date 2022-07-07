@@ -1,0 +1,23 @@
+.root{
+	-fx-background-color: #111827;
+}
+
+.label{
+	-fx-text-fill: #d1d5db;
+	-fx-font-family: "Lucida Sans Typewriter";
+	-fx-font-size: 14;
+	-fx-font-weight: bold;
+}
+#headerLabel{
+	-fx-font-size: 16;
+}
+#loginButton{
+	-fx-background-color: #374151;
+	-fx-text-fill: #f3f4f6;
+}
+#loginButton:hover{
+	-fx-background-color: #1f2937;
+}
+.menus{
+	-fx-background-color: #374151;
+}
